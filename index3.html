@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1> Formulario de  Contactos:</h1>
+
+    <table border="0">
+        <tr>
+            <td>
+                <form method="post" enctype="text/plain" action="mailto:oscar.cerdarodriguez126@gmail.com" target="_blank">
+
+                    <label for="Nombre"> Nombre: </label> <br>
+                    <input type="text" name="name" id="Nombre"> <br>
+
+                    <label for="Surname"> Apellido: </label> <br>
+                    <input type="text" name="Apellido" id="Surname"> <br>
+
+                    <label for="Telephone"> Telefono:</label> <br>
+                    <input type="number" name="tlf" id="Telephone"> <br>
+
+                    <label for="direccion"> Direccion:</label> <br>
+                    <input type="text" name="addres" id="direccion">
+
+                    <h3> Seleciona tu color favorito</h3>
+                    <label for="color"> Elige un color </label>
+
+                    <select name="colores" id="color">
+                        <option>  rojo </option>
+                        <option>  amarillo</option>
+                        <option>  Verde</option>
+                        <option>  Naranja</option>
+                        <option>  Negro</option>
+                        <option selected>  None </option>
+                    </select>
+
+                    
+                    
+                    <label for="cajatexto"></label>
+                    <textarea name="sugerencias" id="cajatexto" cols="30" rows="10" style="background: -webkit-radial-gradient();"> Escribe aqui tus sugerencias</textarea>
+
+                    
+                    <label for="Email"> Email</label>
+                    <input type="email" name="correo" id="Email">
+
+                    <label for="onclick"> has click aqui </label>
+                    <button type="button" onclick="alert('hola Mundo');" id="onclick"> has click aqui </button>
+                    <button type="submit" value="Enviar" > Enviar </button>
+                    <label for="Reset"> </label>
+                    <input type="reset" name="resetear" id="Reset" value="Resetear">
+
+                    <form action="estadoSentimental"> 
+                        
+                        <h5> Elige una opcion</h5>
+                        <input list="estadoSentimental">
+                        <datalist id="estadoSentimental">
+                            <option> Soltero</option>                       
+                            <option> Casado</option>                       
+                            <option> viudo</option>                       
+                            <option> Separado</option>                       
+                            
+                        </datalist>
+                    </form>
+
+                </form>
+            </td>
+                            
+            <td> <img src="C:\Users\agedj\OneDrive\Imágenes\holiday_shark.jpeg" alt="shark" sizes="310" height="310" width="250">  </td>
+
+        </tr>
+
+
+    </table>
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
